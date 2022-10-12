@@ -10,6 +10,7 @@ import com.example.filmapp.utils.Constants
 @Dao
 interface MovieDao {
 
+    //insert
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertMovie(entity: MoviesEntity)
 
