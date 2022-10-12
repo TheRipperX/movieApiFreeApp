@@ -3,7 +3,6 @@ package com.example.filmapp.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
@@ -35,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.apply {
 
+            //hi
             navController = findNavController(R.id.navHost)
 
             bottomNavMain.setupWithNavController(navController)
